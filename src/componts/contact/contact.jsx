@@ -1,3 +1,7 @@
+
+import imgg from "../../images/sampleMap.jpeg"
+
+
 function Contact (props) {
     return (
 
@@ -6,13 +10,15 @@ function Contact (props) {
           <p className='text-4xl font-bold'>Get in touch</p>
         </div>
   
-        <div className='flex p-10 flex-wrap '>
-          <div className='p-5 w-[30%]'>
+        <div className='flex p-10 flex-wrap justify-center items-center '>
+          <div className='p-5'>
   
-          googlemaps 
+          <img src={imgg} alt="" />
   
           </div>
-          <div className='p-5'>
+
+
+          <div className='p-2 min--[500px]:'>
             <p className='text-2xl font-bold p-1'>Head office</p>
             <p className='p-1'>Bay St &, Larkin St, San Francisco, CA 94109, United States</p>
             <div className='bg-slate-600 w-[100%] h-[1px] m-2'/>
@@ -21,7 +27,7 @@ function Contact (props) {
   
           </div>
   
-          <div className='p-5'>
+          <div className='p-2'>
             <p className='text-2xl font-bold p-1'>Head office</p>
             <p className='p-1'>Bay St &, Larkin St, San Francisco, CA 94109, United States</p>
             <div className='bg-slate-600 w-[100%] h-[1px] m-2'/>
@@ -30,6 +36,7 @@ function Contact (props) {
             
           </div>
           </div>
+
   
       </div>
 

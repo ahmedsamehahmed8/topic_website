@@ -40,7 +40,7 @@ function Finance (props) {
 
 <div className="relative p-5 shadow-2xl h-[500px] lg:h-[350px] min-w-[365px]  lg:w-[40%] rounded-3xl   flex flex-col justify-between hover:-translate-y-2 duration-1000 cursor-pointer">
                     
-                    <Link to={'/aa'} className=" p-5  overflow-hidden">
+                    <Link to={'/web-design'} className=" p-5  overflow-hidden">
                     <div className="flex justify-between " >
                     <p className='text-2xl font-bold text-black'>
                     Investment
@@ -85,7 +85,7 @@ function Finance (props) {
 
                <div className='pt-7  '>
                  <button className=' font-bold p-3 bg-teal-400    hover:bg-emerald-900 rounded-full '>
-                   <Link to={'/aa'} className='ps-2 text-xl text-white pe-2'>
+                   <Link to={'/web-design'} className='ps-2 text-xl text-white pe-2'>
                    Learn More
                    </Link>
                  </button>

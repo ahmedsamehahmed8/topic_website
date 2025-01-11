@@ -1,6 +1,5 @@
 
 
-import { checkPropTypes } from 'prop-types';
 
 import e_cardimg1 from '../../../images/topics/undraw_Graduation_re_gthn.png'
 import e_cardimg2 from '../../../images/topics/undraw_Educator_re_ju47.png'
@@ -50,19 +49,9 @@ function Education({hh}) {
             <img src={e_cardimg1} className="w-[100%]" />
               </div>
 
-            
+      
                     </div>
-
-
-
-
                     </div>
-
-
-
-
-
-
                     <div className="p-3 relative shadow-2xl  h-[500px] lg:h-[350px] min-w-[365px]  lg:w-[40%] rounded-3xl   flex flex-col justify-between hover:-translate-y-2 duration-1000 cursor-pointer">
                     <div className=" p-5 z-10 overflow-hidden">
                     <div className="flex justify-between " >

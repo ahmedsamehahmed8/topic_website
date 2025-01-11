@@ -14,7 +14,7 @@ function Design (props) {
         <div className={`design ${props.className}  `}>
 
         <div className=' p-5 flex flex-wrap  justify-center  w-[100%] gap-3 '>
-              <Link to={'/aa'} className="shadow-2xl bg-white lg:h-[350px] min-w-[365px] lg:w-[20%]  rounded-3xl p-6 m-5  flex flex-col  hover:-translate-y-2 duration-1000 cursor-pointer">
+              <Link to={'/web-design'} className="shadow-2xl bg-white lg:h-[350px] min-w-[365px] lg:w-[20%]  rounded-3xl p-6 m-5  flex flex-col  hover:-translate-y-2 duration-1000 cursor-pointer">
                 <div className="flex justify-between">
                   <p className='text-2xl font-bold' >Web Design</p>
                   <div className=' w-7 bg-blue-400 text-white text-sm rounded-md font-bold flex items-center justify-center' >
@@ -31,7 +31,7 @@ function Design (props) {
                 </Link>
                 
   
-              <Link to={'/aa'} className=" shadow-2xl bg-white lg:h-[350px] min-w-[365px]  lg:w-[20%]  rounded-3xl m-5 p-6  flex flex-col  hover:-translate-y-2 duration-1000 cursor-pointer">
+              <Link to={'/web-design'} className=" shadow-2xl bg-white lg:h-[350px] min-w-[365px]  lg:w-[20%]  rounded-3xl m-5 p-6  flex flex-col  hover:-translate-y-2 duration-1000 cursor-pointer">
                 <div className="flex justify-between">
                   <p className='text-2xl font-bold' >Graphic</p>
                   <div className=' w-7 bg-blue-400 text-white text-sm rounded-md font-bold flex items-center justify-center' >
@@ -50,7 +50,7 @@ function Design (props) {
   
   
   
-              <Link to={'/aa'} className=" shadow-2xl bg-white lg:h-[350px] min-w-[365px]  lg:w-[20%]  rounded-3xl m-5 p-6  flex flex-col  hover:-translate-y-2 duration-1000 cursor-pointer">
+              <Link to={'/web-design'} className=" shadow-2xl bg-white lg:h-[350px] min-w-[365px]  lg:w-[20%]  rounded-3xl m-5 p-6  flex flex-col  hover:-translate-y-2 duration-1000 cursor-pointer">
                 <div className="flex justify-between">
                   <p className='text-2xl font-bold' >Logo Design</p>
                   <div className=' w-7 bg-blue-400 text-white text-sm rounded-md font-bold flex items-center justify-center' >

@@ -1,18 +1,14 @@
 import { useRef, useState } from 'react'
-import './App.css'
-import Nav from './componts/nav/nav.jsx'
-import Home from './componts/home/home.jsx'
-import Browse from './componts/Browse_topics/Browse_topics.jsx'
-import How_it_works from './componts/how_it_works/how_it_works.jsx'
-import Faqs from './componts/faqs/faqs.jsx'
-import Contact from './componts/contact/contact.jsx'
-import Footer from './componts/footer/footer.jsx'
+import '../App.css'
+import Nav from '../componts/nav/nav.jsx'
+import Home from '../componts/home/home.jsx'
+import Browse from '../componts/Browse_topics/Browse_topics.jsx'
+import How_it_works from '../componts/how_it_works/how_it_works.jsx'
+import Faqs from '../componts/faqs/faqs.jsx'
+import Contact from '../componts/contact/contact.jsx'
+import Footer from '../componts/footer/footer.jsx'
 
-import  cardimg1 from"./images/topics/undraw_Remote_design_team_re_urdx.png"
-import  cardimg2 from"./images/topics/undraw_Redesign_feedback_re_jvm0.png"
-import  cardimg3 from"./images/topics/colleagues-working-cozy-office-medium-shot.png"
-import imgg from './images/colleagues-working-cozy-office-medium-shot.jpg'
- import iimg from './images/faq_graphic.jpg'
+
 
 
 

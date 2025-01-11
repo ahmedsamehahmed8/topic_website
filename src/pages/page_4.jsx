@@ -1,18 +1,18 @@
-import Nav from "./componts/nav/nav";
+import Nav from "../componts/nav/nav";
 import { Link } from "react-router-dom";
 
-import imag1 from './images/topics/undraw_Remote_design_team_re_urdx.png'
-import imag2 from './images/topics/undraw_online_ad_re_ol62.png'
-import imag3 from './images/topics/undraw_Podcast_audience_re_4i5q.png'
-import f_cardimg1 from './images/topics/undraw_Finance_re_gnv2.png'
+import imag1 from '../images/topics/undraw_Remote_design_team_re_urdx.png'
+import imag2 from '../images/topics/undraw_online_ad_re_ol62.png'
+import imag3 from '../images/topics/undraw_Podcast_audience_re_4i5q.png'
+import f_cardimg1 from '../images/topics/undraw_Finance_re_gnv2.png'
 
 
-import  cardimg2 from"./images/businesswoman-using-tablet-analysis.jpg"
+import  cardimg2 from"../images/businesswoman-using-tablet-analysis.jpg"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faBookmark} from '@fortawesome/free-regular-svg-icons'
 import { faTwitter,faFacebook,faPinterest  } from '@fortawesome/free-brands-svg-icons'
-import Footer from "./componts/footer/footer";
+import Footer from "../componts/footer/footer";
 
 
 
@@ -115,7 +115,7 @@ function Page_3 () {
 
                 <div className="bg-white relative p-5 shadow-2xl h-[420px]  min-w-[480px]  w-[45%] rounded-3xl   flex flex-col justify-between hover:-translate-y-2 duration-1000 cursor-pointer">
                     
-                    <Link to={'/aa'} className=" p-5  overflow-hidden">
+                    <Link to={'/web-design'} className=" p-5  overflow-hidden">
                     <div className="flex justify-between " >
                     <p className='text-2xl font-bold text-black'>
                     Investment
@@ -165,7 +165,7 @@ function Page_3 () {
 
                <div className='pt-7  '>
                  <button onClick={()=>{}} className=' font-bold p-3 bg-teal-400    hover:bg-emerald-900 rounded-full '>
-                   <Link to={'/aa'} className='ps-2 text-xl text-white pe-2'>
+                   <Link to={'/web-design'} className='ps-2 text-xl text-white pe-2'>
   learn more  
                    </Link>
                  </button>

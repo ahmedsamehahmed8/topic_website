@@ -1,13 +1,13 @@
-import Nav from "./componts/nav/nav";
+import Nav from "../componts/nav/nav";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faBookmark} from '@fortawesome/free-regular-svg-icons'
 
-import  cardimg1 from"./images/topics/undraw_Remote_design_team_re_urdx.png"
-import img1 from './images/businesswoman-using-tablet-analysis.jpg'
-import img2 from './images/colleagues-working-cozy-office-medium-shot.jpg'
-import img3 from './images/rear-view-young-college-student.jpg'
-import Footer from "./componts/footer/footer";
+import  cardimg1 from"../images/topics/undraw_Remote_design_team_re_urdx.png"
+import img1 from '../images/businesswoman-using-tablet-analysis.jpg'
+import img2 from '../images/colleagues-working-cozy-office-medium-shot.jpg'
+import img3 from '../images/rear-view-young-college-student.jpg'
+import Footer from "../componts/footer/footer";
 import { useRef } from "react";
 import { Link } from "react-router-dom";
 

@@ -43,7 +43,7 @@ function Home(props) {
 
                  
                 <div className=" w-[100%] h-[450px] m-10 flex flex-wrap justify-center gap-5 items-center">
-                    <Link to={'/aa'} className="bg-white md:h-[100%] min-w-[480px] w-[365px]   rounded-3xl p-10 overflow-hidden flex flex-col  hover:-translate-y-2 duration-1000 cursor-pointer"><Link to={'/aa'}></Link>
+                    <Link to={'/web-design'} className="bg-white md:h-[100%] min-w-[480px] w-[365px]   rounded-3xl p-10 overflow-hidden flex flex-col  hover:-translate-y-2 duration-1000 cursor-pointer"><Link to={'/aa'}></Link>
                     <div className="flex justify-between">
 
                     <p className='text-2xl font-bold' >Web Design</p>
@@ -85,7 +85,7 @@ function Home(props) {
 
                <div className='pt-7  '>
                  <button onClick={()=>{}} className=' font-bold p-3 bg-teal-400    hover:bg-emerald-900 rounded-full '>
-                   <Link to={'aa'} className='ps-2 text-xl text-white pe-2'>
+                   <Link to={'web-design'} className='ps-2 text-xl text-white pe-2'>
   learn more  
 {/* <Routes>           
   <Route path="/ddt" element={<Dt />} />

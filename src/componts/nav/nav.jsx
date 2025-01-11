@@ -59,7 +59,7 @@ return z
         <button onClick={()=>{setpagev(-pagev)}}  className='p-2 text-xl btn relative font-bold text-white hover:text-cyan-800 '>
                 page <FontAwesomeIcon className='icon' icon={faCaretDown}  /> 
             <div className={`${clickpagev()}  absolute z-20 top-[45px] left-0 w-48 h-20  rounded-xl bg-white flex flex-col justify-center items-center` }>
-                <Link to={'/q'} className=' text-lg text-black mb-2'>TOPICS LISTING </Link>
+                <Link to={'/topics-listing'} className=' text-lg text-black mb-2'>TOPICS LISTING </Link>
                 <Link to={'/contact'} className='text-lg text-black'> CONTACT FORM </Link>
             </div>
         </button>
@@ -76,7 +76,7 @@ return z
                     <button  className='pb-10 btn text-left text-xl p-2 font-bold text-white hover:text-cyan-800 '>
                     page <FontAwesomeIcon className='icon' icon={faCaretDown} /> 
                     <div className=' win absolute bottom-[-50px] left-[-5px] w-48 h-20 bg-white flex flex-col justify-center items-center rounded-3xl '>
-                    <Link to={'/q'} className='mb-2 text-lg text-black'>TOPICS LISTING </Link>
+                    <Link to={'/topics-listing'} className='mb-2 text-lg text-black'>TOPICS LISTING </Link>
                     <Link to={'/contact'} className=' text-lg text-black'> CONTACT FORM </Link>
                     </div>
                     </button>

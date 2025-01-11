@@ -1,4 +1,4 @@
-import Nav from "./componts/nav/nav";
+import Nav from "../componts/nav/nav";
 import { Link } from "react-router-dom";
 
 function Page_3() {
